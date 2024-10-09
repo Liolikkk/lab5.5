@@ -47,7 +47,7 @@ int main() {
 
     cout << "(iter): " << fibonacciBinomialIter(N) << endl;
     cout << "(rec up ++): " << fibonacciBinomialRecUp(0, N) << endl;
-    cout << "(rec down --): " << fibonacciBinomialRecDown(N / 2, N) << endl;
+    cout << "(rec down --)³: " << fibonacciBinomialRecDown(N / 2, N) << endl;
 
     return 0;
 }
